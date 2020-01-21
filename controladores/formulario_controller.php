@@ -54,7 +54,7 @@
     
         $datetime = new DateTime();
         $datetime->setTimezone($tz_object);
-        return $datetime->format('Y\-m\-d\ h:i:s');
+        return $datetime->format('Y\-m\-d\ H:i:s');
     }
 
     function removeAccents($str) {
